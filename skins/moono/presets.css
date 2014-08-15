@@ -35,3 +35,13 @@ For licensing, see LICENSE.md or http://ckeditor.com/license
 {
 	background-color: #fff;
 }
+
+.cke_button__shortcodes_label
+{
+  display: inline;
+}
+
+.cke_button__shortcodes_icon
+{
+  display: none;
+}
