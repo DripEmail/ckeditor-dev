@@ -42,6 +42,9 @@ var CKBUILDER_CONFIG = {
 		contextmenu: 1,
 		dialogadvtab: 1,
 		div: 1,
+		dripuploads: 1,
+		driplink: 1,
+		dripshortcodes: 1,
 		elementspath: 1,
 		enterkey: 1,
 		entities: 1,
@@ -59,10 +62,10 @@ var CKBUILDER_CONFIG = {
 		indentlist: 1,
 		indentblock: 1,
 		justify: 1,
-		link: 1,
+		// link: 1,
 		list: 1,
 		liststyle: 1,
-		magicline: 1,
+		// magicline: 1,
 		maximize: 1,
 		newpage: 1,
 		pagebreak: 1,
@@ -86,6 +89,7 @@ var CKBUILDER_CONFIG = {
 		templates: 1,
 		toolbar: 1,
 		undo: 1,
+		wordcount: 1,
 		wysiwygarea: 1
 	}
 };
