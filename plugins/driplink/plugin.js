@@ -169,7 +169,7 @@
 				}
 
 				// Add or Remove `data-utm-override` depending on `utm_` presence
-				if ((/utm_/).test(evt.data.href)) {
+				if (evt.data.utmOverride) {
 					attributes.set['data-utm-override'] = true;
 				}
 				else {
