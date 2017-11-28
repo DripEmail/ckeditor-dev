@@ -168,6 +168,14 @@
 					attributes.removed.splice(index, 1);
 				}
 
+				// Add or Remove `data-utm-override` depending on `utm_` presence
+				if (evt.data.utmOverride) {
+					attributes.set['data-utm-override'] = true;
+				}
+				else {
+					attributes.removed.push('data-utm-override');
+				}
+
 				if ( !selectedElement ) {
 					var range = selection.getRanges()[ 0 ];
 
