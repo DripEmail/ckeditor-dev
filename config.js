@@ -9,9 +9,6 @@ CKEDITOR.editorConfig = function( config ) {
 	// config.uiColor = '#AADC6E';
 	config.skin = 'drip';
 
-  config.toolbar = [
-    { name: 'paragraph', groups: [ 'list', 'indent', 'blocks', 'align', 'bidi' ], items: [ 'NumberedList', 'BulletedList', '-', 'Outdent', 'Indent', '-', 'Blockquote', 'CreateDiv', '-', 'JustifyLeft', 'JustifyCenter', 'JustifyRight', 'JustifyBlock', '-', 'Font', 'FontSize', 'TextColor', '-', 'BidiLtr', 'BidiRtl', 'Language' ] }
-  ];
 	config.toolbarGroups = [
 		{ name: 'clipboard', groups: [ 'undo', 'clipboard' ] },
 		{ name: 'basicstyles', groups: [ 'basicstyles', 'cleanup' ] },
