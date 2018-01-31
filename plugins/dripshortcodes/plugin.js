@@ -8,7 +8,7 @@
       } );
 
       editor.ui.addButton( 'Shortcodes', {
-        label: 'View Shortcodes',
+        label: 'Personalize',
         command: 'showShortcodesModal',
         toolbar: 'help'
       });
