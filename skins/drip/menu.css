@@ -65,7 +65,7 @@ Special outer level classes used in this file:
 .cke_menubutton:focus,
 .cke_menubutton:active
 {
-	background-color: #D3D3D3;
+	background-color: #CCCCCC;
 	display: block;
 }
 
@@ -95,7 +95,7 @@ Special outer level classes used in this file:
 /* The menu item icon. */
 .cke_menubutton_icon
 {
-	background-color: #D7D8D7;
+	background-color: #CCCCCC;
 	opacity: 0.70; /* Safari, Opera and Mozilla */
 	filter: alpha(opacity=70); /* IE */
 	padding: 4px;
@@ -112,7 +112,7 @@ Special outer level classes used in this file:
 .cke_menubutton:focus .cke_menubutton_icon,
 .cke_menubutton:active .cke_menubutton_icon
 {
-	background-color: #D0D2D0;
+	background-color: #CCCCCC;
 }
 
 .cke_menubutton_disabled:hover .cke_menubutton_icon,
@@ -142,8 +142,8 @@ Special outer level classes used in this file:
 
 .cke_menubutton_on
 {
-	border: 1px solid #dedede;
-	background-color: #f2f2f2;
+	border: 1px solid #CCCCCC;
+	background-color: #f5f5f5;
 
 	box-shadow: 0 0 2px rgba(0,0,0,.1) inset;
 }
@@ -157,7 +157,7 @@ Special outer level classes used in this file:
 .cke_menubutton:focus,
 .cke_menubutton:active
 {
-	background-color: #EFF0EF;
+	background-color: #E5E5E5;
 }
 
 .cke_panel_frame .cke_menubutton_label
@@ -168,7 +168,7 @@ Special outer level classes used in this file:
 /* The separator used to separate menu item groups. */
 .cke_menuseparator
 {
-	background-color: #D3D3D3;
+	background-color: #CCCCCC;
 	height: 1px;
 	filter: alpha(opacity=70); /* IE */
 	opacity: 0.70; /* Safari, Opera and Mozilla */

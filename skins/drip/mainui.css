@@ -61,7 +61,7 @@ Special outer level classes used in this file:
 
 	-webkit-touch-callout: none;
 
-	background: #D3D9E4;
+	background: #E5E5E5;
   border-radius: 3px;
 	padding: 0;
 }
@@ -103,7 +103,7 @@ Special outer level classes used in this file:
 	/* Allow breaking toolbars when in a narrow editor. (#9947) */
 	white-space: normal;
 
-	background: #D3D9E4;
+	background: #E5E5E5;
 }
 
 .cke_contents
@@ -119,7 +119,7 @@ Special outer level classes used in this file:
   min-height: 24px;
   border-radius: 0 0 3px 3px;
 	position: relative;
-	background: #D3D9E4;
+	background: #E5E5E5;
 }
 
 /* On iOS we need to manually enable scrolling in the contents block. (#9945) */
@@ -142,7 +142,7 @@ Special outer level classes used in this file:
 	height: 0;
 	overflow: hidden;
 	border-width: 10px 10px 0 0;
-	border-color: transparent #454C58 transparent transparent;
+	border-color: transparent #4D4D4D transparent transparent;
 	border-style: dashed solid dashed dashed;
 
 	font-size: 0;
@@ -168,7 +168,7 @@ Special outer level classes used in this file:
 .cke_resizer_rtl
 {
 	border-width: 10px 0 0 10px;
-	border-color: transparent transparent transparent #454C58;
+	border-color: transparent transparent transparent #4D4D4D;
 	border-style: dashed dashed dashed solid;
 
 	cursor: sw-resize;

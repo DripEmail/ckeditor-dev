@@ -40,7 +40,7 @@ span.cke_path_empty
 	text-decoration: none;
 	outline: 0;
 	border: 0;
-	color: #05132B;
+	color: #262626;
 	font: normal 12px/14px "proxima-nova", Helvetica, Arial, sans-serif;
 }
 a.cke_path_item
@@ -59,18 +59,18 @@ a.cke_path_item
 /* The items are <a> elements, so we define its hover states here. */
 a.cke_path_item:hover
 {
-  background-color: #B2BED4;
+  background-color: #CCCCCC;
 }
 
 a.cke_path_item:focus,
 a.cke_path_item:active
 {
-  background-color: #9faabe;
+  background-color: #bfbfbf;
 }
 
 .cke_wordcount {
   float: right;
-	color: #05132B;
+	color: #262626;
   margin: 0 6px;
   max-width: 160px;
 	white-space: normal;
