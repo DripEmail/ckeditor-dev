@@ -159,6 +159,7 @@ is its visual representation:
   white-space: nowrap;
   display: block;
   height: 30px;
+  outline: none;
 }
 
 /* The child of .cke_panel_listItem. These elements contain spans which are
@@ -177,39 +178,39 @@ is its visual representation:
   line-height: 30px;
   text-align: left;
   outline: none;
-  color: #193a6c;
+  color: #4d4d4d;
   box-sizing: border-box;
   transition: background-color 150ms, color 150ms;
 }
 
 .cke_panel_listItem.cke_selected a
 {
-	background-color: #F2F4F7;
+	background-color: #fff;
+  color: #262626;
+  font-weight: bold;
 }
 
 .cke_panel_listItem a:hover {
-  color: #fff;
-	background-color: #2c5490;
+	color: #262626;
 }
 
 .cke_panel_listItem a:focus,
 .cke_panel_listItem a:active
 {
-  color: #fff;
-	background-color: #193a6c;
+	background-color: #CCCCCC;
+  color: #262626;
 }
 
 /* The title of the entire panel which is visible on top of the list. */
 .cke_panel_grouptitle
 {
-  background: #f2f4f7;
 	cursor: default;
-	font-size: 12px;
-  font-weight: normal;
+	font-size: 14px;
+  font-weight: bold;
   line-height: 30px;
   height: 30px;
   padding: 0 18px;
-  color: #646f82;
+  color: #262626;
 	white-space: nowrap;
 	margin: 0;
 }

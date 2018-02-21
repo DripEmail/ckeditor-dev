@@ -124,30 +124,31 @@ a.cke_button:not(.cke_button_disabled) .cke_button_label
 
 a.cke_button_on
 {
-  background-color: #B2BED4;
+  background-color: #CCCCCC;
 }
 
 a.cke_button_on:hover
 {
-  background-color: #7F8A9D;
+  background-color: #bfbfbf;
 }
 
 a.cke_button_on:focus,
 a.cke_button_on:active
 {
-  box-shadow: inset 0 0 0 1px #05132B;
+  /* box-shadow: inset 0 0 0 1px #262626; */
+  background-color: #999999;
 }
 
 
 a.cke_button_off:hover
 {
-  background-color: #B2BED4;
+  background-color: #CCCCCC;
 }
 
 a.cke_button_off:focus,
 a.cke_button_off:active
 {
-  background-color: #9faabe;
+  background-color: #bfbfbf;
 }
 
 a.cke_button_off:hover,
@@ -187,7 +188,7 @@ a.cke_button_disabled:active
   font-weight: bold;
 	vertical-align: middle;
 	float: left;
-	color: #05132B;
+	color: #262626;
 }
 
 /* replace with icon? */
@@ -225,7 +226,7 @@ a.cke_button_disabled:active
 	vertical-align: top;
 	border-left: 3px solid transparent;
 	border-right: 3px solid transparent;
-	border-top: 3px solid #05132B;
+	border-top: 3px solid #262626;
 }
 
 .cke_rtl .cke_button_arrow
@@ -279,23 +280,23 @@ a.cke_toolbox_collapser
 	cursor: default;
 	text-align: center;
 
-	border: 1px solid #a6a6a6;
-	border-bottom-color: #979797;
+	border: 1px solid #bfbfbf;
+	border-bottom-color: #999999;
 
 	border-radius: 3px;
 
 	box-shadow: 0 1px 0 rgba(255,255,255,.5), 0 0 2px rgba(255,255,255,.15) inset, 0 1px 0 rgba(255,255,255,.15) inset;
 
-	background: #e4e4e4;
-	background-image: linear-gradient(to bottom, #ffffff, #e4e4e4);
-	filter: progid:DXImageTransform.Microsoft.gradient(gradientType=0, startColorstr='#ffffff', endColorstr='#e4e4e4');
+	background: #e5e5e5;
+	background-image: linear-gradient(to bottom, #ffffff, #e5e5e5);
+	filter: progid:DXImageTransform.Microsoft.gradient(gradientType=0, startColorstr='#ffffff', endColorstr='#e5e5e5');
 }
 
 .cke_toolbox_collapser:hover
 {
 	background: #ccc;
-	background-image: linear-gradient(to bottom, #f2f2f2, #ccc);
-	filter: progid:DXImageTransform.Microsoft.gradient(gradientType=0, startColorstr='#f2f2f2', endColorstr='#cccccc');
+	background-image: linear-gradient(to bottom, #f5f5f5, #ccc);
+	filter: progid:DXImageTransform.Microsoft.gradient(gradientType=0, startColorstr='#f5f5f5', endColorstr='#cccccc');
 }
 
 .cke_toolbox_collapser.cke_toolbox_collapser_min
@@ -320,7 +321,7 @@ a.cke_toolbox_collapser
 	margin-top: 1px;
 	border-left: 3px solid transparent;
 	border-right: 3px solid transparent;
-	border-bottom: 3px solid #05132B;
+	border-bottom: 3px solid #262626;
 	border-top: 3px solid transparent;
 }
 
@@ -328,7 +329,7 @@ a.cke_toolbox_collapser
 {
 	margin-top: 4px;
 	border-bottom-color: transparent;
-	border-top-color: #05132B;
+	border-top-color: #262626;
 }
 
 
@@ -336,19 +337,19 @@ a.cke_toolbox_collapser
 
 
 .cke_source {
-  background-color: #454C58;
+  background-color: #4D4D4D;
   color: #fff;
   font: 14px/18px "Bitstream Vera Sans Mono", Consolas, Courier, monospace;
   padding: 18px;
   letter-spacing: .5px;
-  border: 1px solid #454C58 !important;
+  border: 1px solid #4D4D4D !important;
 
   &:hover {
-    border-color: #f3b33c;
+    border-color: #999999;
   }
 
   &:focus {
-    border-color: #2C5490;
+    border-color: #F224F2;
   }
 }
 
