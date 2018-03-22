@@ -61,6 +61,7 @@ var CKBUILDER_CONFIG = {
     'htmlwriter' : 1,
     'image' : 1,
     'indentlist' : 1,
+    'lineheight' : 1,
     'link' : 1,
     'list' : 1,
     'magicline' : 1,
