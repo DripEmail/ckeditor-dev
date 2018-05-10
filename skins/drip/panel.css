@@ -181,6 +181,12 @@ is its visual representation:
   color: #4d4d4d;
   box-sizing: border-box;
   transition: background-color 150ms, color 150ms;
+  background-color: yellow;
+  color: red;
+}
+
+.cke_panel_listItem a span {
+  font-size: 20px !important;
 }
 
 .cke_panel_listItem.cke_selected a
