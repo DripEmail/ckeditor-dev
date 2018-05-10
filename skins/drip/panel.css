@@ -158,7 +158,7 @@ is its visual representation:
   margin: 0;
   white-space: nowrap;
   display: block;
-  height: 30px;
+  min-height: 30px;
   outline: none;
 }
 
@@ -169,7 +169,7 @@ is its visual representation:
   background: transparent;
   border: none;
   width: 100%;
-  height: 30px;
+  min-height: 30px;
   cursor: pointer;
   display: block;
   padding: 0 18px;
@@ -177,6 +177,7 @@ is its visual representation:
   font-size: 14px;
   line-height: 30px;
   text-align: left;
+  text-decoration: none;
   outline: none;
   color: #4d4d4d;
   box-sizing: border-box;
@@ -187,6 +188,10 @@ is its visual representation:
 
 .cke_panel_listItem a span {
   font-size: 20px !important;
+}
+
+.cke_panel_listItem a span {
+  line-height: 1;
 }
 
 .cke_panel_listItem.cke_selected a
