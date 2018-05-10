@@ -185,6 +185,10 @@ is its visual representation:
 }
 
 .cke_panel_listItem a span {
+  font-size: 14px !important;
+}
+
+.cke_panel_listItem a span {
   line-height: 1;
 }
 
