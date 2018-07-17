@@ -189,7 +189,7 @@ is its visual representation:
 }
 
 .cke_panel_listItem a span {
-  line-height: 1;
+  line-height: 1 !important;
 }
 
 .cke_panel_listItem.cke_selected a
