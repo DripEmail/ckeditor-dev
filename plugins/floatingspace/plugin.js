@@ -39,6 +39,7 @@
 					// Allow minor adjustments of the float space from custom configs.
 					dockedOffsetX = config.floatSpaceDockedOffsetX || 0,
 					dockedOffsetY = config.floatSpaceDockedOffsetY || 0,
+					dockedOffsetBottomY = config.floatSpaceDockedOffsetBottomY || 0,
 					pinnedOffsetX = config.floatSpacePinnedOffsetX || 0,
 					pinnedOffsetY = config.floatSpacePinnedOffsetY || 0;
 
@@ -60,7 +61,7 @@
 							updatePos( 'fixed', 'top', pinnedOffsetY );
 							break;
 						case 'bottom':
-							updatePos( 'absolute', 'top', editorPos.y + ( editorRect.height || editorRect.bottom - editorRect.top ) + dockedOffsetY );
+							updatePos( 'absolute', 'top', editorPos.y + ( editorRect.height || editorRect.bottom - editorRect.top ) + dockedOffsetY + dockedOffsetBottomY );
 							break;
 					}
 
@@ -357,6 +358,16 @@
  *		config.floatSpaceDockedOffsetY = 10;
  *
  * @cfg {Number} [floatSpaceDockedOffsetY=0]
+ * @member CKEDITOR.config
+ */
+
+/**
+ * Defines the amount of offset (in pixels) between the float space and the editable
+ * bottom boundary when the space element is docked below the editable.
+ *
+ *		config.floatSpaceDockedOffsetBottomY = 10;
+ *
+ * @cfg {Number} [floatSpaceDockedOffsetBottomY=0]
  * @member CKEDITOR.config
  */
 
