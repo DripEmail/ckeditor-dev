@@ -43,6 +43,7 @@ var CKBUILDER_CONFIG = {
 		dialogadvtab: 1,
 		div: 1,
 		dripuploads: 1,
+		dripcolorpicker: 1,
 		driplink: 1,
 		dripshortcodes: 1,
 		elementspath: 1,
