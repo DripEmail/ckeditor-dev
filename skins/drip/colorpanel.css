@@ -51,7 +51,7 @@ The COLOR PALETTE section instead is a table with a variable number of cells
 .cke_colorblock
 {
 	padding: 3px;
-	font-size: 11px;
+	font-size: 14px;
 	font-family: 'Microsoft Sans Serif', Tahoma, Arial, Verdana, Sans-Serif;
 }
 
@@ -66,8 +66,9 @@ The COLOR PALETTE section instead is a table with a variable number of cells
    It is a small, square-shaped element which can be selected from the palette. */
 span.cke_colorbox
 {
-	width: 10px;
-	height: 10px;
+	width: 20px;
+	height: 20px;
+	margin-left:1px;
 	border: #808080 1px solid;
 	float: left;
 }
@@ -81,10 +82,10 @@ span.cke_colorbox
 a.cke_colorbox
 {
 	border: #fff 1px solid;
-	padding: 2px;
+	padding-top: 1px;
 	float: left;
-	width: 12px;
-	height: 12px;
+	width: 24px;
+	height: 24px;
 }
 
 .cke_rtl a.cke_colorbox
